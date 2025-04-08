@@ -5,6 +5,11 @@ PROMPT=$(hotdiva2000 -r 100 | sed 's/^\|$/"/g' | paste -sd,)
 cat > index.html << EOF
 
 <!DOCTYPE html>
+
+<!--
+made with love by kat @ girlonthemoon.xyz
+-->
+
 <html>
   <head>
     <title>hot diva 2004</title>
@@ -25,6 +30,10 @@ cat > index.html << EOF
       document.getElementById("prompts").innerText = prompts[random];
     }
     </script>
+  </article>
+
+  <article id="credit">
+  <p><a href="https://git.sr.ht/~chasinglightning/hotdiva2004">~chasinglightning/hotdiva2004</a></p>
   </article>
   </body>
 </html>

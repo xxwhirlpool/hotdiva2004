@@ -56,3 +56,12 @@ a:hover {
 text-decoration: none;
 text-shadow: none;
 }
+
+article#credit {
+  width: 30%;
+  margin: 2em auto auto auto;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 1em;
+  box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
