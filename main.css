@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background: #ece286;
+  margin: 0;
+  color: #392622;
+  font-family: "Noto Sans", sans-serif;
+}
+
+article#style {
+  width: 30%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 1em;
+  box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+article#style h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #eb7187;
+  margin-top: 0;
+  font-size: 2rem;
+  text-shadow: 5px 5px 5px rgba(157, 157, 157, 0);
+}
+
+article button {
+  border: none;
+  background: #ffef95;
+  padding: 1em;
+  margin: auto;
+  text-align: center;
+  display: block;
+  font-size: 1rem;
+  box-shadow: inset 0 -3px #dda272;
+  color: #e36f84;
+  text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+}
+
+article#style b {
+  color: #eb7187;
+}
+
+article p#prompts {
+  text-align: center;
+  color: #00c1b6;
+  text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+}
+
+a:link, a:link:active, a:visited, a:visited:active {
+color: #00c1b6;
+text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+}
+
+a:hover {
+text-decoration: none;
+text-shadow: none;
+}
