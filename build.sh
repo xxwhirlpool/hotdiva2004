@@ -33,7 +33,7 @@ made with love by kat @ girlonthemoon.xyz
   </article>
 
   <article id="credit">
-  <p><a href="https://git.sr.ht/~chasinglightning/hotdiva2004">~chasinglightning/hotdiva2004</a></p>
+  <p><a href="https://bytes.4-walls.net/kat/hotdiva2004">kat/hotdiva2004</a></p>
   </article>
   </body>
 </html>

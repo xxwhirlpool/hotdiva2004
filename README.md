@@ -11,7 +11,7 @@ the project name is "hotdiva2004" because 2004 is my birth year :)
 ## live demo
 
 ```
-https://prompts.4-walls.net/hotdiva2004
+https://stash.4-walls.net/hotdiva2004/
 ```
 
 the prompts can be updated by setting the script to run and compile the page via a cron job, such as the one below, which updates it every hour:
