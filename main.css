@@ -7,7 +7,7 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-article#style {
+section#style {
   width: 30%;
   margin: auto;
   background: rgba(255, 255, 255, 0.92);
@@ -15,7 +15,7 @@ article#style {
   box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
-article#style h1 {
+section#style h1 {
   text-align: center;
   text-transform: uppercase;
   color: #eb7187;
@@ -24,7 +24,7 @@ article#style h1 {
   text-shadow: 5px 5px 5px rgba(157, 157, 157, 0);
 }
 
-article#style button {
+section#style button {
   border: none;
   background: #ffef95;
   padding: 1em;
@@ -37,11 +37,15 @@ article#style button {
   text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
 }
 
-article#style b {
+button:active {
+	transform: scale(95%);
+}
+
+section#style b {
   color: #eb7187;
 }
 
-article p#prompts {
+section p#prompts {
   text-align: center;
   color: #00c1b6;
   text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
@@ -57,7 +61,7 @@ text-decoration: none;
 text-shadow: none;
 }
 
-article#credit {
+section#credit {
   width: 30%;
   margin: 2em auto auto auto;
   background: rgba(255, 255, 255, 0.92);
