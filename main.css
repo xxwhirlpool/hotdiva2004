@@ -1,40 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://fonts.bunny.net/css?family=inter:400);
 
 body {
-  background: #ece286;
-  margin: 0;
-  color: #392622;
-  font-family: "Noto Sans", sans-serif;
+	background: #ece286;
+	margin: 0;
+	color: #392622;
+	font-family: "Inner", sans-serif;
 }
 
 section#style {
-  width: 30%;
-  margin: auto;
-  background: rgba(255, 255, 255, 0.92);
-  padding: 1em;
-  box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
+	width: 600px;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.92);
+	padding: 1em;
+	box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
 section#style h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #eb7187;
-  margin-top: 0;
-  font-size: 2rem;
-  text-shadow: 5px 5px 5px rgba(157, 157, 157, 0);
+	text-align: center;
+	text-transform: uppercase;
+	color: #eb7187;
+	margin-top: 0;
+	font-size: 2rem;
+	text-shadow: 5px 5px 5px rgba(157, 157, 157, 0);
 }
 
 section#style button {
-  border: none;
-  background: #ffef95;
-  padding: 1em;
-  margin: auto;
-  text-align: center;
-  display: block;
-  font-size: 1rem;
-  box-shadow: inset 0 -3px #dda272;
-  color: #e36f84;
-  text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+	border: none;
+	background: #ffef95;
+	padding: 1em;
+	margin: auto;
+	text-align: center;
+	display: block;
+	font-size: 1rem;
+	box-shadow: inset 0 -3px #dda272;
+	color: #e36f84;
+	text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
 }
 
 button:active {
@@ -42,30 +42,39 @@ button:active {
 }
 
 section#style b {
-  color: #eb7187;
+	color: #eb7187;
 }
 
 section p#prompts {
-  text-align: center;
-  color: #00c1b6;
-  text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+	text-align: center;
+	color: #00c1b6;
+	text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
 }
 
 a:link, a:link:active, a:visited, a:visited:active {
-color: #00c1b6;
-text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+	color: #00c1b6;
+	text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
 }
 
 a:hover {
-text-decoration: none;
-text-shadow: none;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.credit-par {
+	display: flex;
+	justify-content: center;
+}
+
+section#credit p {
+	margin: .5rem;
+	text-align: center;
 }
 
 section#credit {
-  width: 30%;
-  margin: 2em auto auto auto;
-  background: rgba(255, 255, 255, 0.92);
-  padding: 1em;
-  box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+	width: 600px;
+	margin: 2em auto auto auto;
+	background: rgba(255, 255, 255, 0.92);
+	padding: 1em;
+	box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
 }

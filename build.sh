@@ -37,8 +37,11 @@ made with love by kat @ girlonthemoon.xyz
   </section>
 
   <section id="credit">
-	  <p><a href="https://bytes.4-walls.net/kat/hotdiva2004">source</a></p>
-	  <p><a href="https://girlonthemoon.xyz/elsewhere/">elsewhere</a></p>
+  	<div class="credit-par">
+	  <p><a href="https://bytes.4-walls.net/kat/hotdiva2004">source code</a></p>
+	  <p><a href="https://girlonthemoon.xyz/elsewhere">find me elsewhere</a></p>
+	  <p><a href="https://prompts.4-walls.net/">more prompt generators</a></p>
+	</div>
   </section>
   </body>
 </html>
