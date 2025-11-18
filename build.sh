@@ -38,7 +38,7 @@ made with love by kat @ girlonthemoon.xyz
 
   <section id="credit">
   	<div class="credit-par">
-	  <p><a href="https://bytes.4-walls.net/kat/hotdiva2004">source code</a></p>
+	  <p><a href="https://tangled.org/katproto.girlonthemoon.xyz/hotdiva2004">source code</a></p>
 	  <p><a href="https://girlonthemoon.xyz/elsewhere">find me elsewhere</a></p>
 	  <p><a href="https://prompts.4-walls.net/">more prompt generators</a></p>
 	</div>
