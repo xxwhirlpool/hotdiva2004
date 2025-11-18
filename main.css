@@ -1,18 +1,29 @@
 @import url(https://fonts.bunny.net/css?family=inter:400);
 
+:root {
+	--bg-color: #ece286;
+	--bg-box-color: rgba(255, 255, 255, 0.92);
+	--text-color: #392622;
+	--accent-color: #00c1b6;
+	--text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+	--box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
+	--button-text-color: #e36f84;
+	--button-shadow-color: #dda272;
+}
+
 body {
-	background: #ece286;
+	background: var(--bg-color);
 	margin: 0;
-	color: #392622;
+	color: var(--text-color);
 	font-family: "Inner", sans-serif;
 }
 
 section#style {
 	width: 600px;
 	margin: auto;
-	background: rgba(255, 255, 255, 0.92);
+	background: var(--bg-box-color);
 	padding: 1em;
-	box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: var(--box-shadow);
 }
 
 section#style h1 {
@@ -32,28 +43,24 @@ section#style button {
 	text-align: center;
 	display: block;
 	font-size: 1rem;
-	box-shadow: inset 0 -3px #dda272;
-	color: #e36f84;
-	text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+	box-shadow: inset 0 -3px var(--button-shadow-color);
+	color: var(--button-text-color);
+	text-shadow: var(--text-shadow);
 }
 
 button:active {
 	transform: scale(95%);
 }
 
-section#style b {
-	color: #eb7187;
-}
-
 section p#prompts {
 	text-align: center;
-	color: #00c1b6;
-	text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+	color: var(--accent-color);
+	text-shadow: var(--text-shadow);
 }
 
 a:link, a:link:active, a:visited, a:visited:active {
-	color: #00c1b6;
-	text-shadow: 5px 5px 5px rgba(157, 157, 157, 0.21);
+	color: var(--accent-color);
+	text-shadow: var(--text-shadow);
 }
 
 a:hover {
@@ -74,7 +81,7 @@ section#credit p {
 section#credit {
 	width: 600px;
 	margin: 2em auto auto auto;
-	background: rgba(255, 255, 255, 0.92);
+	background: var(--bg-box-color);
 	padding: 1em;
-	box-shadow: 10px 15px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: var(--box-shadow);
 }
